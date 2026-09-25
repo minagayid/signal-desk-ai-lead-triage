@@ -20,4 +20,4 @@ Review also caught that an interrupted assistant response was removed even thoug
 2. Validate requests with Zod at the server boundary, and keep scoring in pure functions that run without an external provider.
 3. Label every example as synthetic; show score evidence and limits beside a recommendation, and leave the decision with a person.
 
-The detailed implementation, data source, and model limitations are in `SPEC.md`, `docs/AI_WORKLOG.md`, and `docs/capstone/REFLECTION.md`. The branch comparison is local; no public repository or portal submission is claimed.
+The detailed implementation, data source, and model limitations are in `SPEC.md`, `docs/AI_WORKLOG.md`, and `docs/capstone/REFLECTION.md`. Both workflow branches and the comparison are public in the repository; the FE-04 portal submission is saved and awaits mentor review.

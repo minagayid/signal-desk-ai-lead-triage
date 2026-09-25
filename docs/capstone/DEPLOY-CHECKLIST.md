@@ -12,7 +12,8 @@
 - [x] Select and publish the public repository: `https://github.com/minagayid/signal-desk-ai-lead-triage`.
 - [ ] Sign in to a deployment host and connect the repository.
 - [ ] Deploy preview and verify the public build.
-- [ ] Publish the confirmed links and submit to the Frontend capstone portal.
+- [x] Submit the current portfolio entry and evidence links to the Frontend capstone portal (status: Submitted, 2026-09-26; mentor review pending).
+- [ ] Add the production URL after host sign-in, deployment, and public smoke checks; update the portal submission.
 
 ## Rollback
 

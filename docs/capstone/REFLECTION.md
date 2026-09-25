@@ -6,4 +6,4 @@ The most useful learning was to keep feature extraction, tool validation, and UI
 
 The main limitation is evidence maturity. The app uses only invented records and has no calibration study, actual studio-user feedback, deployed preview, Lighthouse report, WAVE report, or mentor review. Before calling this production-ready, I would test with consented studio intake examples, make the training set representative, audit false positives and missed leads, and replace the in-memory rate limit with a shared service. The next release decision should depend on those findings, not on the score looking polished.
 
-The assignment's production and capstone outcomes require a public repository, hosted preview, and portal submission. None is claimed until the destination is chosen, the app is reviewed, and the actual publication steps are completed.
+The public repository and current capstone evidence have been submitted to FlyRank. The hosted preview and production smoke check are still missing because no deployment host is connected. The portal shows the capstone as Submitted, not Accepted; mentor review is pending.

@@ -22,6 +22,6 @@ Portal source: Frontend AI Engineering, **All** view (14 assignments); detail pa
 
 ## Evidence boundary
 
-The portal lists another approved capstone, “Send the Link: Launch, Demo & Story,” shared by General AI Fluency and Frontend. The required Frontend capstone is “Ship It—Your First Production AI Product.” This project targets the latter. The portal currently reports 0/14 frontend assignments; mentor acceptance is a separate state from local completion.
+The portal lists another approved capstone, “Send the Link: Launch, Demo & Story,” shared by General AI Fluency and Frontend. The required Frontend capstone is “Ship It—Your First Production AI Product.” This project targets the latter. On 2026-09-26 the portal showed 14/14 Frontend assignments submitted or complete and this capstone as Submitted. Mentor acceptance remains a separate, pending review state.
 
-The public repository and product screenshot are captured and verified. The FE-01 assistant screenshot, live deployment URL, WAVE/manual screen-reader evidence, and mentor acceptance remain outstanding.
+The public repository and product screenshot are captured and verified. The FE-01 assistant screenshot, live deployment URL, WAVE/manual screen-reader evidence, and mentor acceptance remain outstanding. The assignment submissions and capstone are saved in FlyRank with notes identifying the missing evidence.

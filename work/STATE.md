@@ -18,8 +18,9 @@
 - Measured production Lighthouse mobile profile: inbox 96 performance/100 accessibility; lead detail 97/98. Full reports and screenshot are in ignored `outputs/`.
 - Published `https://github.com/minagayid/signal-desk-ai-lead-triage`; pushed `main` and both workflow branches. GitHub Actions passed all three runs on 2026-09-26.
 - Added the actual local product screenshot, capstone portfolio entry, README architecture/deployment sections, and truthful evidence boundaries. Improved chat placeholder contrast after a luminance review.
+- Submitted all 14 Frontend assignment records and the “Ship It” capstone to FlyRank on 2026-09-26. The track list shows 14/14 submitted or complete; the capstone shows Submitted. Mentor acceptance is not claimed. FE-06 and FE-07 notes explicitly disclose the missing live preview.
 
 ## Remaining
 
 - Pending evidence: WAVE, manual screen-reader review, stable-URL baseline comparison, physical-device checks, and a genuine assistant-task screenshot.
-- External completion remains: authenticate a deployment host, deploy and smoke test, capture the URL, submit prepared assignment evidence through the FlyRank portal, reopen it to verify each submission, and await mentor review. No portal submission has been made yet.
+- External completion remains: sign in to an existing deployment host, deploy and smoke test, capture the live URL, update deployment-dependent assignment submissions and the capstone, capture the FE-01 assistant screenshot, and await mentor review. WAVE/manual screen-reader review and a stable-URL audit comparison are also open.

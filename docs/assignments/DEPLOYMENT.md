@@ -22,4 +22,4 @@ Keep the last known-good deployment active while the preview is checked. If the 
 
 ## Current boundary
 
-The public GitHub repository and hosted CI are verified. The Chrome session has no Vercel sign-in and no other deployment provider is configured, so no live preview or production URL exists yet. No FlyRank assignment or capstone submission has been saved yet. This document is a checklist, not proof of deployment.
+The public GitHub repository and hosted CI are verified. The Chrome session has no Vercel sign-in and no other deployment provider is configured, so no live preview or production URL exists yet. FlyRank now shows 14/14 frontend assignments submitted or complete and the track capstone as Submitted; mentor review is pending. Deployment-dependent submissions explicitly state that the live URL is missing. This document is a checklist, not proof of deployment.

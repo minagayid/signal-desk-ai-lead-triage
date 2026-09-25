@@ -17,7 +17,7 @@ Signal Desk is a lead-triage workspace for independent creative studios and smal
 ## Testing evidence
 
 - [Test and quality record](../assignments/TESTING.md): 20 unit/component tests, 88.81% line coverage in the configured scope, production build, and 10 browser checks across Chromium and Firefox.
-- [Hosted GitHub Actions run for `main`](https://github.com/minagayid/signal-desk-ai-lead-triage/actions/runs/36189134571); workflow runs also passed on `workflow/vague-prompt` and `workflow/precise-prompt`.
+- [Latest hosted GitHub Actions run for `main`](https://github.com/minagayid/signal-desk-ai-lead-triage/actions/runs/36191444331); workflow runs also passed on `workflow/vague-prompt` and `workflow/precise-prompt`.
 - [Lead workspace screenshot](../assets/signal-desk-lead-review.png) shows the real local application with synthetic sample data.
 
 ## Performance and accessibility audit
@@ -40,4 +40,4 @@ Signal Desk is a lead-triage workspace for independent creative studios and smal
 
 ## Current gaps
 
-This is an honest, reviewable capstone package, but it does not yet meet the live-deployment requirement. The remaining deployment URL, FE-01 AI-assistant screenshot, WAVE/manual screen-reader evidence, and mentor acceptance are not claimed.
+The portfolio entry and evidence links were submitted to FlyRank on 2026-09-26; the portal shows **Submitted**, with mentor review pending. The capstone does not yet meet the live-deployment requirement. The deployment URL, FE-01 AI-assistant screenshot, and WAVE/manual screen-reader evidence remain outstanding.
