@@ -23,6 +23,7 @@ Signal Desk is a lead-triage workspace for independent creative studios and smal
 ## Performance and accessibility audit
 
 - [Audit record](../assignments/AUDIT.md): Lighthouse mobile scores were 96 performance / 100 accessibility for the inbox and 97 / 98 for the lead workspace.
+- [Inbox Lighthouse JSON report](../audits/lighthouse-inbox-2026-09-25.json) · [Lead workspace Lighthouse JSON report](../audits/lighthouse-lead-2026-09-25.json).
 - The axe scan reported zero violations across six routes in Chromium and Firefox; keyboard dialog, reduced-motion, and 320 px checks also passed.
 - An audit found the chat placeholder color had 3.14:1 contrast on white. It was changed from `#849590` to `#606f6b`, which measures 5.27:1 on white and 4.74:1 on the app's `#eff4f1` paper.
 - WAVE and manual screen-reader review have not been completed. Lighthouse was run locally; no stable public URL exists for a deployment comparison.

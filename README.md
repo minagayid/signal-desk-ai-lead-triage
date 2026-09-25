@@ -47,6 +47,7 @@ The repository is public and hosted CI passes on `main` and both workflow exerci
 - `web/src/lib/ai/` — input validation, model, and qualification tool
 - `web/src/components/` — lead workspace and reusable UI
 - `docs/assignments/` — assignment-specific notes and evidence
+- `docs/audits/` — shareable Lighthouse JSON reports from the local production build
 - `docs/capstone/` — deployment checklist, audit, and reflection
 - `SPEC.md` — audience, problem, scope, and AI role
 

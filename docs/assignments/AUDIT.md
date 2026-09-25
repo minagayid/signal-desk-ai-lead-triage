@@ -12,7 +12,7 @@ Review the inbox, lead workspace, accessible widget lab, motion states, and both
 | Automated WCAG A/AA scan | Passed with 0 reported violations on six primary routes in Chromium and Firefox | Playwright + axe-core; local runs on 2026-09-25 |
 | Keyboard dialog path | Passed focus entry, wrap, Escape, and focus return in Chromium and Firefox | Playwright browser check on 2026-09-25 |
 | Reduced motion and responsive reflow | Passed emulated reduced-motion and 320 px overflow checks in Chromium and Firefox | Playwright browser check on inbox, lead, and practice routes; WebGL fallback remains code-reviewed only |
-| Lighthouse mobile profile | Inbox 96 performance / 100 accessibility; lead review 97 / 98 | Saved HTML and JSON reports in `outputs/`; local production build, 2026-09-25 |
+| Lighthouse mobile profile | Inbox 96 performance / 100 accessibility; lead review 97 / 98 | [Inbox JSON](../audits/lighthouse-inbox-2026-09-25.json), [lead JSON](../audits/lighthouse-lead-2026-09-25.json); local production build, 2026-09-25. Original HTML reports remain in ignored `outputs/`. |
 | Placeholder text contrast | Improved from 3.14:1 to 5.27:1 on white (`#849590` → `#606f6b`); the new color measures 4.74:1 on the app's `#eff4f1` paper | WCAG relative-luminance contrast calculation; `web/src/app/globals.css` |
 | WAVE violations | Not measured | WAVE extension report still required; no WAVE zero-error claim |
 | Baseline versus after comparison | Not measured | Requires a stable preview URL |
