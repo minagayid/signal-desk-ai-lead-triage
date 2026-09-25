@@ -236,7 +236,7 @@ a { color: inherit; }
 .chat-error button { margin-left: 8px; border: 0; background: transparent; color: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; }
 .chat-compose { display: flex; align-items: flex-end; gap: 9px; padding: 12px 14px; border-top: 1px solid var(--chalk-line); }
 .chat-compose textarea { flex: 1; min-height: 44px; max-height: 120px; resize: vertical; border: 1px solid #c9d7d2; border-radius: 5px; padding: 10px 11px; background: #fff; color: var(--deep-tide); font-size: 13px; }
-.chat-compose textarea::placeholder { color: #849590; }
+.chat-compose textarea::placeholder { color: #606f6b; }
 .chat-footnote { margin: -3px 15px 12px; color: var(--muted-ink); font-size: 10px; }
 .next-step { padding: 16px 18px; }
 .next-step h2 { margin: 0; font-size: 14px; }
