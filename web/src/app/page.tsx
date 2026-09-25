@@ -40,7 +40,7 @@ export default function Home() {
         <aside className="panel signal-map" aria-labelledby="signal-map-title">
           <h2 id="signal-map-title">What the model looks for</h2>
           <p>Rule matches in the four synthetic sample requests.</p>
-          {cueCounts.map((cue, index) => <div className="map-row" key={cue.key}><span className="map-label">{cue.label}</span><div className="bar-track" aria-hidden="true"><div className={`bar-fill ${cue.key === "near_term" ? "attention" : ""}`} style={{ width: `${[78, 58, 42][index]}%` }} /></div><span className="map-count" aria-label={`${cue.count} of ${leads.length} synthetic examples`}>{String(cue.count).padStart(2, "0")}</span></div>)}
+          {cueCounts.map((cue) => <div className="map-row" key={cue.key}><span className="map-label">{cue.label}</span><div className="bar-track" aria-hidden="true"><div className={`bar-fill ${cue.key === "near_term" ? "attention" : ""}`} style={{ width: `${leads.length ? Math.round(cue.count / leads.length * 100) : 0}%` }} /></div><span className="map-count" aria-label={`${cue.count} of ${leads.length} synthetic examples`}>{String(cue.count).padStart(2, "0")}</span></div>)}
           <div className="proof-note"><strong>Keep the human in the loop</strong>Scores summarize synthetic examples. Check the original request and ask before drawing a conclusion.</div>
           <nav className="practice-links" aria-label="Frontend assignment exercises">
             <Link href="/playground/accessibility">Accessible widgets</Link>
