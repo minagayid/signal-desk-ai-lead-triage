@@ -11,7 +11,7 @@
 
 1. Run lint, typecheck, unit/component tests, coverage, production build, and browser end-to-end check from `web/`.
 2. Capture the actual audit reports and verify the capstone's Lighthouse/accessibility thresholds.
-3. Review the diff and secret scan, then select a repository and hosting account. No remote is currently configured.
+3. Review the diff and secret scan, then publish the approved public repository. This project is at `https://github.com/minagayid/signal-desk-ai-lead-triage`; `main` and both workflow branches are pushed, and hosted CI passed.
 4. Configure any provider key only if the product's model is intentionally changed. Keep it in the deployment platform's secret store; do not use `.env.example` for credentials.
 5. Publish a preview, smoke test `/`, `/leads/northline`, `/health`, and `/api/qualify`, and capture the public URL and build revision.
 6. Update the portal with the confirmed repository and deployment links after review.
@@ -22,4 +22,4 @@ Keep the last known-good deployment active while the preview is checked. If the 
 
 ## Current boundary
 
-No public repository, remote push, hosting account, preview, or portal submission was created in this task. Those are external actions and need a destination and final approval. This document is a checklist, not proof of deployment.
+The public GitHub repository and hosted CI are verified. The Chrome session has no Vercel sign-in and no other deployment provider is configured, so no live preview or production URL exists yet. No FlyRank assignment or capstone submission has been saved yet. This document is a checklist, not proof of deployment.

@@ -11,6 +11,8 @@ not a decision. The project is intentionally scoped as a portfolio application;
 it is not a validated sales predictor and should not be used to make decisions
 about people.
 
+![Signal Desk lead workspace showing model evidence, the local assistant response, and an editable follow-up](docs/assets/signal-desk-lead-review.png)
+
 ## Run locally
 
 ```powershell
@@ -21,6 +23,23 @@ npm run dev
 
 Open `http://localhost:3000`. The app needs no environment variables or API
 key; its classifier and sample records are local and synthetic.
+
+## Architecture and AI behavior
+
+- Next.js App Router pages provide the inbox, lead workspace, health view, and practice routes.
+- `web/src/lib/ai/` validates requests, applies the locally trained logistic-regression model, and produces a typed qualification result.
+- The assistant stream uses the local model and deterministic response flow. It does not call an external LLM or send messages.
+- The model surfaces evidence for human review; it does not decide which people qualify.
+
+### Environment variables
+
+| Variable | Required | Purpose |
+|---|---|---|
+| None | No | The default build and local model work without provider credentials. |
+
+## Deployment status
+
+The repository is public and hosted CI passes on `main` and both workflow exercise branches. A live application URL is not available yet; deployment and production smoke checks remain outstanding.
 
 ## Project map
 
@@ -37,6 +56,10 @@ Run `npm run train`, `npm run lint`, `npm run typecheck`, `npm run test`,
 `npm run coverage`, `npm run build`, and `npm run e2e` from `web/`. The
 Playwright flow uses local fixtures and the local classifier, never a live AI
 service. See `docs/assignments/TESTING.md` for the recorded results.
+
+## Known limitations
+
+The classifier is trained on 38 synthetic examples and is not calibrated against real outcomes. The assistant is a deterministic local flow, not a provider-backed LLM. The request limiter is per-process, and a live deployment, WAVE report, and manual screen-reader review remain outstanding.
 
 ## AI-assisted development
 

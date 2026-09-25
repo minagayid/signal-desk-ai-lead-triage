@@ -1,10 +1,10 @@
 # Active task state
 
 - **Goal:** prepare the 14 Frontend AI Engineering assignments and track-specific capstone as one reviewable project, with evidence grounded in work actually performed.
-- **Non-goals:** submit portal work, publish a public repo/deployment, invent screenshots/research/audit results, or claim mentor approval.
+- **Non-goals:** invent screenshots, research, audit results, or claim mentor approval.
 - **Inputs:** authenticated Frontend AI Engineering “All” view and assignment briefs read 2026-09-25; user reliability contract; existing root repository and initial three Conventional Commits.
 - **Local side effects:** code/docs, npm dependencies, local tests/audits, generated reports/screenshots, local commits/branches.
-- **External boundary:** no remote configured. Public repo, hosted deployment, portal upload/submission, account changes, and secret entry remain pending a confirmed destination/action and final review.
+- **External boundary:** public GitHub repo and CI publication authorized by the user and complete. FlyRank submissions are authorized; deployment still needs the user's sign-in on an existing host. Do not create an account, grant OAuth access, or enter credentials.
 - **Acceptance:** coherent app and practice routes, assignment evidence map, tests and production browser flow passing, Lighthouse scores recorded, 3+ Conventional Commits, genuine evidence only, clean secret review.
 - **Recovery:** retain existing user files, keep outputs outside Git, make commits additive, return to `main` after branch comparison, review final status and history.
 
@@ -16,8 +16,10 @@
 - Added a 405-word workflow comparison and verified both local branches: vague prompt `5c89d0d`, precise prompt `605fb5f`; `main` contains the corrected version.
 - Ran model training, lint, typecheck, 20 unit/component tests across 6 files, coverage, production build, and 10 Playwright checks across Chromium and Firefox. The six-route axe run found zero violations in both browsers; the dialog keyboard path, 320 px layout checks, and reduced-motion behavior also passed.
 - Measured production Lighthouse mobile profile: inbox 96 performance/100 accessibility; lead detail 97/98. Full reports and screenshot are in ignored `outputs/`.
+- Published `https://github.com/minagayid/signal-desk-ai-lead-triage`; pushed `main` and both workflow branches. GitHub Actions passed all three runs on 2026-09-26.
+- Added the actual local product screenshot, capstone portfolio entry, README architecture/deployment sections, and truthful evidence boundaries. Improved chat placeholder contrast after a luminance review.
 
 ## Remaining
 
-- Pending evidence: WAVE, manual screen-reader review, stable-URL baseline comparison, physical-device checks, genuine assistant-task screenshot, hosted CI.
-- External completion remains: select public repo/host, deploy and smoke test, capture links, upload each artifact, submit, reopen portal to verify state, and obtain mentor review. No such action has been taken.
+- Pending evidence: WAVE, manual screen-reader review, stable-URL baseline comparison, physical-device checks, and a genuine assistant-task screenshot.
+- External completion remains: authenticate a deployment host, deploy and smoke test, capture the URL, submit prepared assignment evidence through the FlyRank portal, reopen it to verify each submission, and await mentor review. No portal submission has been made yet.

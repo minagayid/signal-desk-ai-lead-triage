@@ -8,12 +8,12 @@ Portal source: Frontend AI Engineering, **All** view (14 assignments); detail pa
 | 2 | FE-04 The AI-assisted workflow drill (detail code FE-03) | two runnable branches, 300–500 word comparison, three project rules, caught AI mistake | workflow branches and `docs/assignments/WORKFLOW.md` |
 | 3 | CUSTOM-MRC9R0VW-1B5749AA React app development with AI | completed app, prompts, AI role, manual corrections | `/playground/react-practice`, `docs/assignments/REACT-PRACTICE.md` |
 | 4 | FE-05 Capstone skeleton, deployed | routed screens, design tokens, health route, preview + repo URL | Next.js routes and `/health`; deployment pending account access |
-| 5 | FE-03 Accessible component fundamentals | hand-built dialog/tabs/disclosure, keyboard test, shadcn source comparison | `/playground/accessibility`, `NOTES.md` |
+| 5 | FE-03 Accessible component fundamentals | hand-built dialog/tabs/disclosure, keyboard test, shadcn source comparison | `/playground/accessibility`, `docs/assignments/FE03-NOTES.md` |
 | 6 | FE-06 Streaming AI chat interface | streamed response, stop/retry, multi-turn state, server-only model config | `/api/qualify`, lead workspace |
 | 7 | FE-07 Tool results and structured output | Zod tool contract, four visible lifecycle states, result component, error state | `src/lib/ai/qualify-tool.ts`, tool state panel |
 | 8 | FE-08 Error states, empty states, edge cases | failure inventory, recovery, empty/loading states, sabotage evidence | `docs/assignments/EDGE-CASES.md`, app states |
 | 9 | CUSTOM-MRIGS9RF-F01D5104 Buttons with a Brain | 5+ intentional states, interruptible, reduced motion, success/failure controls | `/playground/motion`, motion note |
-| 10 | FE-09 Testing pass | 6+ semantic component tests, mocked AI, primary-flow E2E, CI evidence | Vitest/RTL/Playwright config and workflow |
+| 10 | FE-09 Testing pass | 6+ semantic component tests, mocked AI, primary-flow E2E, CI evidence | Vitest/RTL/Playwright; hosted CI passed on `main` and both workflow branches |
 | 11 | CUSTOM-MRIGWUYY-78EB3DAD Your First 3D Experience on the Web | real scene, interaction, lazy load, static fallback, perf note | `/playground/3d`, perf note |
 | 12 | FE-10 Accessibility and performance audit | baseline/after audit evidence, zero WAVE errors, keyboard flow | `docs/assignments/AUDIT.md`; Lighthouse, two-browser axe, keyboard, responsive, and reduced-motion evidence saved; WAVE/manual screen-reader/baseline remain open |
 | 13 | CUSTOM-MRIH2B7J-4C5F5A3D Signature Hero: A Fullscreen Shader | GLSL with 2+ uniforms, readable text, DPR cap, visibility/reduced-motion fallback | `/playground/shader`, shader comments |
@@ -24,4 +24,4 @@ Portal source: Frontend AI Engineering, **All** view (14 assignments); detail pa
 
 The portal lists another approved capstone, “Send the Link: Launch, Demo & Story,” shared by General AI Fluency and Frontend. The required Frontend capstone is “Ship It—Your First Production AI Product.” This project targets the latter. The portal currently reports 0/14 frontend assignments; mentor acceptance is a separate state from local completion.
 
-Screenshots, deployment URLs, public repository URLs, provider-backed operation, and mentor acceptance are not claimed until directly captured or verified.
+The public repository and product screenshot are captured and verified. The FE-01 assistant screenshot, live deployment URL, WAVE/manual screen-reader evidence, and mentor acceptance remain outstanding.
