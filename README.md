@@ -19,9 +19,8 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`. The local classifier needs no API key. Copy
-`web/.env.example` to `web/.env.local` only if you later configure an optional
-remote provider; never commit `.env.local`.
+Open `http://localhost:3000`. The app needs no environment variables or API
+key; its classifier and sample records are local and synthetic.
 
 ## Project map
 
@@ -34,9 +33,10 @@ remote provider; never commit `.env.local`.
 
 ## Quality checks
 
-Run `npm run lint`, `npm run typecheck`, and `npm run test` from `web/` before
-opening a pull request. The Playwright flow is documented in
-`docs/assignments/TESTING.md` and uses local fixtures, never a live AI service.
+Run `npm run train`, `npm run lint`, `npm run typecheck`, `npm run test`,
+`npm run coverage`, `npm run build`, and `npm run e2e` from `web/`. The
+Playwright flow uses local fixtures and the local classifier, never a live AI
+service. See `docs/assignments/TESTING.md` for the recorded results.
 
 ## AI-assisted development
 
