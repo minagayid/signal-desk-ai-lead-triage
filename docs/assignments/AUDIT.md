@@ -9,12 +9,13 @@ Review the inbox, lead workspace, accessible widget lab, motion states, and both
 | Check | Status | Evidence |
 |---|---|---|
 | Semantic structure and keyboard paths | Component tests pass; manual keyboard and screen-reader review pending | Component tests and FE-03 notes |
-| Automated WCAG A/AA scan | Passed with 0 reported violations on six primary routes | Playwright + axe-core; local Chromium run on 2026-09-25 |
-| Reduced motion and static visual fallbacks | Implemented; browser preference check pending | Motion and 3D/shader source |
+| Automated WCAG A/AA scan | Passed with 0 reported violations on six primary routes in Chromium and Firefox | Playwright + axe-core; local runs on 2026-09-25 |
+| Keyboard dialog path | Passed focus entry, wrap, Escape, and focus return in Chromium and Firefox | Playwright browser check on 2026-09-25 |
+| Reduced motion and responsive reflow | Passed emulated reduced-motion and 320 px overflow checks in Chromium and Firefox | Playwright browser check on inbox, lead, and practice routes; WebGL fallback remains code-reviewed only |
 | Lighthouse mobile profile | Inbox 96 performance / 100 accessibility; lead review 97 / 98 | Saved HTML and JSON reports in `outputs/`; local production build, 2026-09-25 |
 | WAVE violations | Not measured | WAVE extension report still required; no WAVE zero-error claim |
 | Baseline versus after comparison | Not measured | Requires a stable preview URL |
-| Mobile and browser matrix | Lighthouse mobile emulation measured; responsive widths and second browser not checked | Browser/device matrix remains in deployment checklist |
+| Mobile and browser matrix | Lighthouse mobile profile plus 320 px checks; Chromium and Firefox | Other browsers and physical devices remain unchecked |
 
 ## Repeatable audit
 
@@ -24,4 +25,4 @@ Review the inbox, lead workspace, accessible widget lab, motion states, and both
 4. Use keyboard only to traverse the nav, filter, open/close the dialog, change tabs, reveal disclosure content, submit a question, stop a response, and reach the static controls on reduced motion.
 5. Compare performance with the visual playgrounds unloaded versus opened. Record actual values and device conditions; do not infer a score from implementation choices.
 
-Both pages exceed the capstone's Lighthouse performance threshold of 85. The six-route axe scan reports no WCAG A/AA violations. WAVE, manual keyboard and screen-reader review, reduced-motion browser preference review, cross-browser checks, and a before/after comparison remain open; automated scans do not replace those checks.
+Both pages exceed the capstone's Lighthouse performance threshold of 85. The six-route axe scan reports no violations in two browser engines. WAVE, manual screen-reader review, a stable-URL baseline comparison, and physical-device checks remain open; automated scans do not replace those checks.

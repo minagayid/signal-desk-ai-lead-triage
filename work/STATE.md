@@ -13,12 +13,11 @@
 - Inspected the authenticated FE track: 14 assignments plus “Ship It—Your First Production AI Product.” Shared AI Fluency capstone is separate.
 - Built Signal Desk with synthetic training data, local logistic-regression scoring, evidence/cautions, typed request validation, streamed explanation, interruption recovery, health route, and local failure demos.
 - Added practice routes for React, keyboard-oriented widgets, cancellable button states, 3D scene, and GLSL shader; documented their implementation and limits.
-- Added a 300–500 word workflow comparison; branch refs will be finalized before completion.
-- Ran model training, lint, typecheck, 20 unit/component tests across 6 files, coverage, production build, and 3 Chromium E2E tests. The six-route axe run found zero violations.
+- Added a 405-word workflow comparison and verified both local branches: vague prompt `5c89d0d`, precise prompt `605fb5f`; `main` contains the corrected version.
+- Ran model training, lint, typecheck, 20 unit/component tests across 6 files, coverage, production build, and 10 Playwright checks across Chromium and Firefox. The six-route axe run found zero violations in both browsers; the dialog keyboard path, 320 px layout checks, and reduced-motion behavior also passed.
 - Measured production Lighthouse mobile profile: inbox 96 performance/100 accessibility; lead detail 97/98. Full reports and screenshot are in ignored `outputs/`.
 
 ## Remaining
 
-- Create and verify `workflow/vague-prompt` and `workflow/precise-prompt` local branches; finish commit and final diff review.
-- Pending evidence: manual keyboard/screen-reader/reduced-motion review, WAVE, stable-URL baseline comparison, second-browser/device matrix, genuine assistant-task screenshot, hosted CI.
+- Pending evidence: WAVE, manual screen-reader review, stable-URL baseline comparison, physical-device checks, genuine assistant-task screenshot, hosted CI.
 - External completion remains: select public repo/host, deploy and smoke test, capture links, upload each artifact, submit, reopen portal to verify state, and obtain mentor review. No such action has been taken.

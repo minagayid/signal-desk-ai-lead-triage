@@ -15,9 +15,9 @@ Portal source: Frontend AI Engineering, **All** view (14 assignments); detail pa
 | 9 | CUSTOM-MRIGS9RF-F01D5104 Buttons with a Brain | 5+ intentional states, interruptible, reduced motion, success/failure controls | `/playground/motion`, motion note |
 | 10 | FE-09 Testing pass | 6+ semantic component tests, mocked AI, primary-flow E2E, CI evidence | Vitest/RTL/Playwright config and workflow |
 | 11 | CUSTOM-MRIGWUYY-78EB3DAD Your First 3D Experience on the Web | real scene, interaction, lazy load, static fallback, perf note | `/playground/3d`, perf note |
-| 12 | FE-10 Accessibility and performance audit | baseline/after audit evidence, zero WAVE errors, keyboard flow | `docs/assignments/AUDIT.md`; Lighthouse and axe evidence saved, WAVE/manual/baseline review remain open |
+| 12 | FE-10 Accessibility and performance audit | baseline/after audit evidence, zero WAVE errors, keyboard flow | `docs/assignments/AUDIT.md`; Lighthouse, two-browser axe, keyboard, responsive, and reduced-motion evidence saved; WAVE/manual screen-reader/baseline remain open |
 | 13 | CUSTOM-MRIH2B7J-4C5F5A3D Signature Hero: A Fullscreen Shader | GLSL with 2+ uniforms, readable text, DPR cap, visibility/reduced-motion fallback | `/playground/shader`, shader comments |
-| 14 | FE-11 Production deployment and README | public full flow, abuse limits, cross-browser evidence, run/deploy README | README and `docs/assignments/DEPLOYMENT.md`; public deployment pending |
+| 14 | FE-11 Production deployment and README | public full flow, abuse limits, cross-browser evidence, run/deploy README | README and `docs/assignments/DEPLOYMENT.md`; Chromium/Firefox local evidence saved, public deployment pending |
 | Capstone | CUSTOM-MS4MLF4V-E2371199 Ship It—Your First Production AI Product | brief, deployed app, repo/README, tests, perf/a11y, deploy plan, reflection | app plus `SPEC.md` and `docs/capstone/` evidence |
 
 ## Evidence boundary

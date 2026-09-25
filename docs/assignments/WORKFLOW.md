@@ -2,7 +2,7 @@
 
 ## Branch exercise
 
-The comparison lives in `workflow/vague-prompt` and `workflow/precise-prompt`. The vague prompt asks for a lead inbox that “looks better and more modern.” It can open a design space, but it leaves the assistant to guess which details matter, what should happen on a phone, and how an empty result should read.
+The comparison lives in `workflow/vague-prompt` (`5c89d0d`) and `workflow/precise-prompt` (`605fb5f`). The vague prompt asks for a lead inbox that “looks better and more modern.” It can open a design space, but it leaves the assistant to guess which details matter, what should happen on a phone, and how an empty result should read.
 
 The precise prompt asks for a compact review workspace for a small creative studio. Show the lead, fit signal, budget, timeline, and next action. Keep score evidence visible, filter by score band, explain zero results, work at 320 px, and make clear that a score cannot decide whether to accept or price a project. These criteria make the task reviewable without dictating every visual detail.
 
